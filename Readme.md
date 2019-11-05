@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Алина](https://up.htmlacademy.ru/adaptive/18/user/800317).
-* Наставник: `Неизвестно`.
+* Студент: [Алина Калачева](https://up.htmlacademy.ru/adaptive/18/user/800317).
+* Наставник: [Артём Матковский](https://htmlacademy.ru/profile/id1151767).
 
 ---
 
