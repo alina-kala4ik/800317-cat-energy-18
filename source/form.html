@@ -34,49 +34,77 @@
     <p class="page-main__subtitle">Заполните анкету и мы подберем программу питания для вашего кота</p>
 
     <form class="page-main__form form-feedback" action="https://echo.htmlacademy.ru" method="get">
-      <label class="form-feedback__text-label text-label">Имя:<sup>*</sup>
-        <input class="form-feedback__text-input text-input" type="text" name="name" required tabindex="1">
-      </label>
-      <label class="form-feedback__text-label text-label">Вес (кг):<sup>*</sup>
-        <input class="form-feedback__text-input text-input" type="text" name="weight" required tabindex="2">
-      </label>
-      <label class="form-feedback__text-label text-label">Возраст (лет):<sup>*</sup>
-        <input class="form-feedback__text-input text-input" type="text" name="age" required tabindex="3">
-      </label>
+      <ul class="form-feedback__group-parameters">
+        <li>
+          <label class="form-feedback__text-label text-label">Имя:<sup>*</sup>
+            <input class="form-feedback__text-input text-input" type="text" name="name" required tabindex="1">
+          </label>
+        </li>
+        <li>
+          <label class="form-feedback__text-label text-label">Вес (кг):<sup>*</sup>
+            <input class="form-feedback__text-input text-input" type="text" name="weight" required tabindex="2">
+          </label>
+        </li>
+        <li>
+          <label class="form-feedback__text-label text-label">Возраст (лет):<sup>*</sup>
+            <input class="form-feedback__text-input text-input" type="text" name="age" required tabindex="3">
+          </label>
+        </li>
+      </ul>
 
-      <fieldset class="form-feedback__main-parameters">
-        <input class="visually-hidden" type="radio" name="mission" value="slim" id="slim" tabindex="4">
-        <label class="form-feedback__radio-button radio-button" for="slim">Похудение</label>
-        <input class="visually-hidden" type="radio" name="mission" value="fat" id="fat" tabindex="5">
-        <label class="form-feedback__radio-button radio-button" for="fat">Набор массы</label>
-        <input class="visually-hidden" type="radio" name="mission" value="unknown" id="unknown" tabindex="6">
-        <label class="form-feedback__radio-button radio-button" for="unknown">Не знаю (Нужен ваш совет)</label>
-      </fieldset>>
+      <ul class="form-feedback__group-parameters form-feedback__group-parameters--main-parameters">
+        <li>
+          <input class="visually-hidden" type="radio" name="mission" value="slim" id="slim" tabindex="4">
+          <label class="form-feedback__radio-button radio-button" for="slim">Похудение</label>
+        </li>
+        <li>
+          <input class="visually-hidden" type="radio" name="mission" value="fat" id="fat" tabindex="5">
+          <label class="form-feedback__radio-button radio-button" for="fat">Набор массы</label>
+        </li>
+        <li>
+          <input class="visually-hidden" type="radio" name="mission" value="unknown" id="unknown" tabindex="6">
+          <label class="form-feedback__radio-button radio-button" for="unknown">Не знаю (Нужен ваш совет)</label>
+        </li>
+      </ul>
 
-      <h3 class="form-feedback__subtitle">Контактные данные (владельца кота)</h3>
-      <label class="form-feedback__text-label text-label">E-mail:<sup>*</sup>
-        <input class="form-feedback__text-input form-feedback__text-input--email text-input " type="email" name="email"
-          required tabindex="7">
-      </label>
-      <label class="form-feedback__text-label text-label">Телефон:<sup>*</sup>
-        <input class="form-feedback__text-input form-feedback__text-input--phone text-input" type="tel" name="phone"
-          required tabindex="8">
-      </label>
+      <ul class="form-feedback__group-parameters">
+        <h3 class="form-feedback__subtitle">Контактные данные (владельца кота)</h3>
+        <li>
+          <label class="form-feedback__text-label text-label">E-mail:<sup>*</sup>
+            <input class="form-feedback__text-input form-feedback__text-input--email text-input " type="email" name="email" required tabindex="7">
+          </label>
+        </li>
+        <li>
+            <label class="form-feedback__text-label text-label">Телефон:<sup>*</sup>
+              <input class="form-feedback__text-input form-feedback__text-input--phone text-input" type="tel" name="phone" required tabindex="8">
+            </label>
+        </li>
+      </ul>
 
       <label class="form-feedback__subtitle">Комментарий
         <textarea class="form-feedback__comment" name="comment" placeholder="Расскажите обо всех повадках кота"
           tabindex="9"></textarea>
       </label>
 
-      <h3 class="form-feedback__subtitle">Дополнительно</h3>
-      <input class="visually-hidden" type="checkbox" name="sweetener" id="sweetener" tabindex="10">
-      <label class="form-feedback__checkbox-button checkbox-button" for="sweetener">Сахарозаменитель</label>
-      <input class="visually-hidden" type="checkbox" name="water" id="water" tabindex="11">
-      <label class="form-feedback__checkbox-button checkbox-button" for="water">Питьевая вода</label>
-      <input class="visually-hidden" type="checkbox" name="milk" id="milk" tabindex="12">
-      <label class="form-feedback__checkbox-button checkbox-button" for="milk">Молоко</label>
-      <input class="visually-hidden" type="checkbox" name="vitamins" id="vitamins" tabindex="13">
-      <label class="form-feedback__checkbox-button checkbox-button" for="vitamins">Витамины</label>
+      <ul class="form-feedback__group-parameters">
+        <h3 class="form-feedback__subtitle">Дополнительно</h3>
+        <li>
+            <input class="visually-hidden" type="checkbox" name="sweetener" id="sweetener" tabindex="10">
+            <label class="form-feedback__checkbox-button checkbox-button" for="sweetener">Сахарозаменитель</label>
+        </li>
+        <li>
+            <input class="visually-hidden" type="checkbox" name="water" id="water" tabindex="11">
+            <label class="form-feedback__checkbox-button checkbox-button" for="water">Питьевая вода</label>
+        </li>
+        <li>
+            <input class="visually-hidden" type="checkbox" name="milk" id="milk" tabindex="12">
+            <label class="form-feedback__checkbox-button checkbox-button" for="milk">Молоко</label>
+        </li>
+        <li>
+            <input class="visually-hidden" type="checkbox" name="vitamins" id="vitamins" tabindex="13">
+            <label class="form-feedback__checkbox-button checkbox-button" for="vitamins">Витамины</label>
+        </li>
+      </ul>
 
       <input class="form-feedback__submit button button--color1" type="submit" value="Отправить заявку" tabindex="14">
 
@@ -108,9 +136,9 @@
           <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
         </li>
       </ul>
-      <div class="page-footer__copyright copyright">
-        <a class="copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy
-          <img class="copyright__image" src="^инф" width="^инф" height="^инф" alt="HTML Academy">
+      <div class="page-footer__copyright">
+        <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy
+          <img class="page-footer__copyright-image" src="^инф" width="^инф" height="^инф" alt="HTML Academy">
         </a>
       </div>
     </div>
