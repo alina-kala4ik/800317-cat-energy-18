@@ -13,7 +13,7 @@
 .example__fact-item {
   border: 1px solid $color-border;
   border-radius: 3px;
-  @include text-parameter(24px,1, $color-subtitle);
+  @include text-parameter(24px, 1, $color-subtitle);
   width: 124px;
   height: 56px;
   text-transform: uppercase;

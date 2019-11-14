@@ -7,7 +7,7 @@
   @include text-parameter(36px, 1, $color-element);
 }
 
-.page-header__preview-subtitle{
+.page-header__preview-subtitle {
   text-transform: uppercase;
   @include text-parameter(14px, 1, $color-element);
 }

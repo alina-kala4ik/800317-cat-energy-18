@@ -15,7 +15,7 @@
   }
   &:active {
     background-color: $color-main-darker;
-    color: rgba($color-element, 0.3)
+    color: rgba($color-element, 0.3);
   }
 }
 
@@ -27,6 +27,6 @@
   }
   &:active {
     background-color: $color-secondary-darker;
-    color: rgba($color-text, 0.3)
+    color: rgba($color-text, 0.3);
   }
 }

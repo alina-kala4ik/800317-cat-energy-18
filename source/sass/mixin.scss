@@ -1,4 +1,4 @@
-@mixin text-parameter($size,$line-height,$color) {
+@mixin text-parameter($size, $line-height, $color) {
   font-size: $size;
   line-height: $line-height;
   color: $color;
