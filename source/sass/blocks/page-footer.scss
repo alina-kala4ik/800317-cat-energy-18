@@ -1,0 +1,40 @@
+.page-footer {
+  background-color: $color-secondary;
+}
+
+.page-footer__contact-desc--main-title {
+  background-color: $color-element;
+}
+
+.page-footer__title {
+  @include text-parameter(16px, 1.25, $color-subtitle);
+  text-transform: uppercase;
+}
+
+.page-footer__contact-desc {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.page-footer__address {
+  @include text-parameter(14px, 1.43, $color-text);
+}
+
+.page-footer__logo {
+  padding-top: 39px;
+  padding-bottom: 31px;
+}
+
+.page-footer__social-list {
+  border-top: 1px solid $color-border;
+  border-bottom: 1px solid $color-border;
+}
+
+.page-footer__copyright{
+  padding-top: 22px;
+  padding-bottom: 28px;
+}
+
+.page-footer__copyright-link {
+  @include text-parameter(16px, 1, $color-text);
+}

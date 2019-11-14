@@ -1,0 +1,21 @@
+.catalog-section__item {
+  background-color: $color-secondary;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.catalog-section__title {
+  @include text-parameter(24px, 1.54, $color-subtitle);
+  text-transform: uppercase;
+}
+
+.catalog-section__description {
+  @include text-parameter(14px, 1.29, $color-text);
+  border-bottom: 1px solid $color-border;
+  padding-bottom: 20px;
+}
+
+.catalog-section__link {
+  text-transform: uppercase;
+  @include text-parameter(16px, 1, $color-subtitle);
+}

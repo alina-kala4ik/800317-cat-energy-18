@@ -1,0 +1,15 @@
+.about-product__title {
+  @include text-parameter(36px, 1.67, $color-subtitle);
+}
+
+.about-product__text {
+  @include text-parameter(14px, 1.29, $color-text);
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: $color-main;
+    margin-right: 20px;
+  }
+}

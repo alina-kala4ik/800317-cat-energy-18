@@ -1,0 +1,13 @@
+.page-header__preview {
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+}
+
+.page-header__preview-title {
+  @include text-parameter(36px, 1, $color-element);
+}
+
+.page-header__preview-subtitle{
+  text-transform: uppercase;
+  @include text-parameter(14px, 1, $color-element);
+}

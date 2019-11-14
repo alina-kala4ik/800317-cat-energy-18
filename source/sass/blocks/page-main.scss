@@ -1,0 +1,22 @@
+.page-main__title {
+  @include text-parameter(36px, 1.67, $color-subtitle);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.page-main__subtitle {
+  @include text-parameter(24px, 1, $color-subtitle);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.page-main__action {
+  background-image: url("../img/gift-photo-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.page-main__action_title {
+  @include text-parameter(16px, 1.25, $color-element);
+}

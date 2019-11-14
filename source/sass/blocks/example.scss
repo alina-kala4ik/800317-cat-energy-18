@@ -1,0 +1,34 @@
+.example {
+  background-color: $color-secondary;
+}
+
+.example__title {
+  @include text-parameter(36px, 1.67, $color-subtitle);
+}
+
+.example__text {
+  @include text-parameter(14px, 1.29, $color-text);
+}
+
+.example__fact-item {
+  border: 1px solid $color-border;
+  border-radius: 3px;
+  @include text-parameter(24px,1, $color-subtitle);
+  width: 124px;
+  height: 56px;
+  text-transform: uppercase;
+}
+
+.example__fact-total-item {
+  @include text-parameter(14px, 1.43, $color-subtitle);
+  text-transform: uppercase;
+}
+
+.example__fact-comment {
+  @include text-parameter(12px, 1, $color-text);
+}
+
+.example__verge {
+  text-transform: uppercase;
+  @include text-parameter(16px, 1.25, $color-subtitle);
+}

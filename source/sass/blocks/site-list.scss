@@ -1,0 +1,20 @@
+.site-list__item {
+  border-top: 1px solid $color-border;
+  &:last-of-type {
+    border-bottom: 1px solid $color-border;
+  }
+}
+
+.site-list__link {
+  display: block;
+  @include text-parameter(20px, 1, $color-subtitle);
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  &:hover {
+    color: rgba($color-subtitle, 0.6);
+  }
+  &:active {
+    color: rgba($color-subtitle, 0.3);
+  }
+}
