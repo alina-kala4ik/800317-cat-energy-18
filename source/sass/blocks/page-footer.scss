@@ -2,7 +2,12 @@
   background-color: $color-secondary;
 }
 
-.page-footer__contact-desc--main-title {
+.page-footer__contact-desc {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.page-footer__header--main-title {
   background-color: $color-element;
 }
 
@@ -18,6 +23,11 @@
 
 .page-footer__address {
   @include text-parameter(14px, 1.43, $color-text);
+}
+
+.page-footer__footer {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .page-footer__logo {

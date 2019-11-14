@@ -1,5 +1,10 @@
+.site-list {
+  padding-left: 0;
+}
+
 .site-list__item {
   border-top: 1px solid $color-border;
+  list-style: none;
   &:last-of-type {
     border-bottom: 1px solid $color-border;
   }

@@ -1,7 +1,12 @@
+.catalog-section__list {
+  padding-left: 0;
+}
+
 .catalog-section__item {
   background-color: $color-secondary;
   margin-top: 20px;
   padding: 20px;
+  list-style: none;
 }
 
 .catalog-section__title {

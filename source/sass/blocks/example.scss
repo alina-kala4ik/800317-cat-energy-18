@@ -2,6 +2,11 @@
   background-color: $color-secondary;
 }
 
+.example__wrapper {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
 .example__title {
   @include text-parameter(36px, 1.67, $color-subtitle);
 }

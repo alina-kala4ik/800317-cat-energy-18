@@ -1,15 +1,34 @@
+.about-product {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.about-product__list {
+  padding-left: 0;
+}
+
+.about-product__item {
+  list-style: none;
+}
+
 .about-product__title {
   @include text-parameter(36px, 1.67, $color-subtitle);
 }
 
 .about-product__text {
   @include text-parameter(14px, 1.29, $color-text);
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  padding-left: 80px;
   &::before {
     content: "";
     display: inline-block;
     width: 60px;
     height: 60px;
     background-color: $color-main;
-    margin-right: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
