@@ -69,6 +69,16 @@
 .form-feedback__text-input {
   padding: 15px;
   border: 1px solid $color-border;
+  font-family: "Oswald", "Arial", sans-serif;
+  @include text-parameter(16px, 1.13, $color-text, 400);
+  outline: none;
+  &:hover {
+    border-color: $color-border-darker;
+  }
+  &:focus {
+    border-color: $color-text;
+    border-width: 2px;
+  }
 }
 
 .form-feedback__radio-button {
@@ -171,6 +181,20 @@
   display: block;
   padding: 15px;
   resize: none;
+  outline: none;
+  font-family: "Oswald", "Arial", sans-serif;
+  @include text-parameter(16px, 1.13, $color-text, 400);
+  &::placeholder {
+    font-family: "Oswald", "Arial", sans-serif;
+    @include text-parameter(16px, 1.13, $color-text, 400);
+  }
+  &:hover {
+    border-color: $color-border-darker;
+  }
+  &:focus {
+    border-color: $color-text;
+    border-width: 2px;
+  }
 }
 
 .form-feedback__submit {
