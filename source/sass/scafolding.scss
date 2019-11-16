@@ -18,3 +18,26 @@ body {
 a {
   text-decoration: none;
 }
+
+textarea::placeholder,
+input,
+textarea {
+  font-family: "Oswald", "Arial", sans-serif;
+  @include text-parameter(16px, 1.13, $color-text, 400);
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+input:hover,
+textarea:hover {
+  border-color: $color-border-darker;
+}
+
+input:focus,
+textarea:focus  {
+  border-color: $color-text;
+  border-width: 2px;
+}
