@@ -1,5 +1,12 @@
+.catalog-section{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .catalog-section__list {
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .catalog-section__item {
@@ -12,12 +19,16 @@
 .catalog-section__title {
   @include text-parameter(24px, 1.54, $color-subtitle, 400);
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .catalog-section__description {
   @include text-parameter(14px, 1.29, $color-text, 400);
   border-bottom: 1px solid $color-border;
   padding-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .catalog-section__link {

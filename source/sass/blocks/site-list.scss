@@ -15,6 +15,7 @@
   @include text-parameter(20px, 1, $color-subtitle, 500);
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: center;
   &:hover {
     color: rgba($color-subtitle, 0.6);
   }

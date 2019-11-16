@@ -14,6 +14,8 @@
 .page-footer__title {
   @include text-parameter(16px, 1.25, $color-subtitle, 400);
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .page-footer__contact-desc {
@@ -23,16 +25,13 @@
 
 .page-footer__address {
   @include text-parameter(14px, 1.43, $color-text, 400);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .page-footer__footer {
   margin-left: 20px;
   margin-right: 20px;
-}
-
-.page-footer__logo {
-  padding-top: 39px;
-  padding-bottom: 31px;
 }
 
 .page-footer__social-list {

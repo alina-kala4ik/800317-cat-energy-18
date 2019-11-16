@@ -23,6 +23,8 @@
 
 .page-main__action_title {
   @include text-parameter(16px, 1.25, $color-element, 400);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .page-main__additional-products {
