@@ -16,12 +16,12 @@
 }
 
 .product-card__title {
-  @include text-parameter(16px, 1.25, $color-subtitle);
+  @include text-parameter(16px, 1.25, $color-subtitle, 400);
   text-transform: uppercase;
 }
 
 .product-card__description {
-  @include text-parameter(12px, 1.33, $color-text);
+  @include text-parameter(12px, 1.33, $color-text, 400);
   &--big-card {
     margin-top: 20px;
     margin-bottom: 25px;

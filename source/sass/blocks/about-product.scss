@@ -12,11 +12,11 @@
 }
 
 .about-product__title {
-  @include text-parameter(36px, 1.67, $color-subtitle);
+  @include text-parameter(36px, 1.67, $color-subtitle, 400);
 }
 
 .about-product__text {
-  @include text-parameter(14px, 1.29, $color-text);
+  @include text-parameter(14px, 1.29, $color-text, 400);
   position: relative;
   display: inline-block;
   height: 60px;

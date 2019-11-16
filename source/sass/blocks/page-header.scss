@@ -4,10 +4,10 @@
 }
 
 .page-header__preview-title {
-  @include text-parameter(36px, 1, $color-element);
+  @include text-parameter(36px, 1, $color-element, 400);
 }
 
 .page-header__preview-subtitle {
   text-transform: uppercase;
-  @include text-parameter(14px, 1, $color-element);
+  @include text-parameter(14px, 1, $color-element, 400);
 }

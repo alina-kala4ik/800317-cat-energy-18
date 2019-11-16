@@ -1,7 +1,8 @@
 body {
   background-color: #ffffff;
   font-family: "Oswald", "Arial", sans-serif;
-  @include text-parameter(14px, 1.29, $color-text);
+  style: normal;
+  @include text-parameter(14px, 1.29, $color-text, 400);
 }
 
 .visually-hidden {
