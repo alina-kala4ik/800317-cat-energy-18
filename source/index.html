@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>CAT ENERGY</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -15,23 +16,23 @@
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button"></button>
         <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--active">
-            <a>ГЛАВНАЯ</a>
+          <li class="site-list__item">
+            <a class="site-list__link site-list__link--active">ГЛАВНАЯ</a>
           </li>
           <li class="site-list__item">
-            <a href="catalog.html">КАТАЛОГ ПРОДУКЦИИ</a>
+            <a class="site-list__link" href="catalog.html">КАТАЛОГ ПРОДУКЦИИ</a>
           </li>
           <li class="site-list__item">
-            <a href="form.html">ПОДБОР ПРОГРАММЫ</a>
+            <a class="site-list__link" href="form.html">ПОДБОР ПРОГРАММЫ</a>
           </li>
         </ul>
       </nav>
     </div>
-    <section class="preview">
-      <h2 class="preview__title">Функциональное питание для котов</h2>
-      <p class="preview__subtitle">ЗАНЯЛСЯ СОБОЙ? ЗАЙМИСЬ КОТОМ!</p>
-      <img class="preview__image" src="^инф" width="^инф" height="^инф" alt="CAT ENERGY PRO 500гр">
-      <a class="preview__link button button--color1">ПОДОБРАТЬ ПРОГРАММУ</a>
+    <section class="page-header__preview">
+      <h2 class="page-header__preview-title">Функциональное питание для котов</h2>
+      <p class="page-header__preview-subtitle">ЗАНЯЛСЯ СОБОЙ? ЗАЙМИСЬ КОТОМ!</p>
+      <img class="page-header__preview-image" src="^инф" width="^инф" height="^инф" alt="CAT ENERGY PRO 500гр">
+      <a class="page-header__preview-link button button--color1" href="form.html">ПОДОБРАТЬ ПРОГРАММУ</a>
     </section>
   </header>
 
@@ -45,14 +46,14 @@
           <img class="catalog-section__image catalog-section__image--slim" src="^инф" width="^инф" height="^инф" alt="CAT ENERGY SLIM">
           <h3 class="catalog-section__title">ПОХУДЕНИЕ</h3>
           <p class="catalog-section__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
-          <a class="catalog-section__link">Каталог Slim</a>
+          <a class="catalog-section__link" href="каталог">Каталог Slim</a>
         </li>
         <li class="catalog-section__item">
           <img class="catalog-section__image catalog-section__image--fat" src="^инф" width="^инф" height="^инф"
             alt="CAT ENERGY PRO">
           <h3 class="catalog-section__title">НАБОР МАССЫ</h3>
           <p class="catalog-section__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
-          <a class="catalog-section__link">Каталог pro</a>
+          <a class="catalog-section__link" href="каталог">Каталог pro</a>
         </li>
       </ul>
     </section>
@@ -76,46 +77,48 @@
     </section>
 
     <section class="example">
-      <h2 class="example__title">Живой пример</h2>
-      <div class="example__facts">
-        <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim.
-          Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16
-          часов в день.</p>
-        <table class="example__fact-list">
-          <tr>
-            <td class="example__fact-item">
-              5 кг<span class="example__fact-comment">снижение веса</span>
-            </td>
-            <td class="example__fact-item">
-              60 дней <span class="example__fact-comment">затрачено времени</span>
-            </td>
-          </tr>
-          <tr>
-            <td class="example__fact-total-item" colspan="2">Затраты на питание: 15 000 руб.</td>
-          </tr>
-        </table>
-      </div>
-      <form class="example__demonstration">
-        <div class="example__live-image-wrapper">
-          <img class="example__live-image example__live-image--fat-right example__live-image--hidden" src="^инф" width="^инф" height="^инф" alt="Борис">
-          <img class="example__live-image example__live-image--fat-left" src="^инф" width="^инф" height="^инф" alt="Борис">
-          <img class="example__live-image example__live-image--slim-right" src="^инф" width="^инф" height="^инф"  alt="Борис">
-          <img class="example__live-image example__live-image--slim-left example__live-image--hidden" src="^инф" width="^инф" height="^инф" alt="Борис">
+      <div class="example__wrapper">
+        <h2 class="example__title">Живой пример</h2>
+        <div class="example__facts">
+          <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim.
+            Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16
+            часов в день.</p>
+          <table class="example__fact-list">
+            <tr>
+              <td class="example__fact-item">
+                5 кг<span class="example__fact-comment">снижение веса</span>
+              </td>
+              <td class="example__fact-item">
+                60 дней <span class="example__fact-comment">затрачено времени</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="example__fact-total-item" colspan="2">Затраты на питание: 15 000 руб.</td>
+            </tr>
+          </table>
         </div>
-        <label class="example__verge">
-          Было<input class="example__range" type="range">Стало
-        </label>
-      </form>
+        <form class="example__demonstration">
+          <div class="example__live-image-wrapper">
+            <img class="example__live-image example__live-image--fat-right example__live-image--hidden" src="^инф" width="^инф" height="^инф" alt="Борис">
+            <img class="example__live-image example__live-image--fat-left" src="^инф" width="^инф" height="^инф" alt="Борис">
+            <img class="example__live-image example__live-image--slim-right" src="^инф" width="^инф" height="^инф"  alt="Борис">
+            <img class="example__live-image example__live-image--slim-left example__live-image--hidden" src="^инф" width="^инф" height="^инф" alt="Борис">
+          </div>
+          <label class="example__verge">
+            Было<input class="example__range" type="range">Стало
+          </label>
+        </form>
+      </div>
     </section>
   </main>
 
   <footer class="page-footer">
-    <div class="contact page-footer__header">
-      <div class="contact__desc">
-        <h4 class="contact__title">приглашаем к сотрудничеству дилеров!</h4>
-        <p class="contact__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+    <div class="page-footer__header page-footer__header--main-title">
+      <div class="page-footer__contact-desc">
+        <h4 class="page-footer__title">приглашаем к сотрудничеству дилеров!</h4>
+        <p class="page-footer__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
       </div>
-      <iframe class="contact__map" src="^инф"></iframe>
+      <iframe class="page-footer__map" src="https://www.google.com/maps/d/embed?mid=1658E0cP4YY0Ovn06-SCK-qiOcY0Z1BUo&hl=ru" width="^инф" height="^инф"></iframe>
     </div>
     <div class="page-footer__footer">
       <a class="page-footer__logo">
