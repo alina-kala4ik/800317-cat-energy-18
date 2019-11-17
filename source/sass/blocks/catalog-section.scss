@@ -12,6 +12,8 @@
 .catalog-section__item {
   background-color: $color-secondary;
   margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
   padding: 20px;
   list-style: none;
 }
@@ -21,6 +23,8 @@
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 70px;
+  margin-bottom: 35px;
 }
 
 .catalog-section__description {
@@ -34,4 +38,57 @@
 .catalog-section__link {
   text-transform: uppercase;
   @include text-parameter(16px, 1, $color-subtitle, 400);
+}
+
+@media (min-width: $tablet-width) {
+  .catalog-section__item {
+    padding-right: 280px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .catalog-section__description {
+    border-bottom: none;
+  }
+  .catalog-section__title {
+    padding-left: 0;
+    @include text-parameter(36px, 1.03, $color-subtitle, 400);
+  }
+  .catalog-section__description {
+    @include text-parameter(16px, 1.5, $color-text, 400);
+  }
+  .catalog-section__link {
+    @include text-parameter(20px, 1, $color-subtitle, 400);
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog-section {
+    width: 1220px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .catalog-section__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .catalog-section__item {
+    flex-basis: 570px;
+    padding-right: 50px;
+    margin-right: 0;
+    margin-left: 0;
+
+    &:first-of-type {
+      margin-right: 80px;
+    }
+  }
+  .catalog-section__title {
+    padding-left: 170px;
+  }
 }
