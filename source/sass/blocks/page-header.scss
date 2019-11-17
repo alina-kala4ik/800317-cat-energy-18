@@ -45,7 +45,7 @@
 }
 
 .page-header__preview-wrapper {
-  background: url("../img/index-background-mobile@1x.jpg"),#65a93c;
+  background: url("../img/index-background-mobile@1x.jpg"), #65a93c;
   background-repeat: no-repeat;
   background-position: center top;
   width: 100%;
@@ -73,7 +73,7 @@
   margin-top: -138px;
   margin-bottom: 3px;
   flex-basis: 270px;
-  background: chartreuse;  //временное свойство
+  background: chartreuse; //временное свойство
 }
 
 .page-header__preview-link {
@@ -121,7 +121,8 @@
 
 @media (min-width: $desktop-width) {
   .page-header--main-page {
-    background: url("../img/index-can-desktop@1x.png") center 145px no-repeat, url("../img/index-background-desktop@1x.jpg") right top  no-repeat;
+    background: url("../img/index-can-desktop@1x.png") center 145px no-repeat,
+      url("../img/index-background-desktop@1x.jpg") right top no-repeat;
     padding-bottom: 220px;
   }
   .page-header__header {
