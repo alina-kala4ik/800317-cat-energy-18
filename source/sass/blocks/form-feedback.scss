@@ -4,6 +4,7 @@
 
 .form-feedback__item {
   list-style: none;
+
   &:not(:last-of-type) {
     margin-bottom: 15px;
   }
@@ -12,7 +13,6 @@
 .form-feedback__subtitle-wrapper {
   border-bottom: 3px solid $color-main;
   width: 100%;
-  height: 1px;
   position: relative;
   height: 24px;
   margin-bottom: 38px;
@@ -40,10 +40,12 @@
   padding-left: 0;
   padding-top: 0;
   padding-bottom: 0;
+
   &--cat {
     margin-right: 20px;
     margin-left: 20px;
   }
+
   &--main-parameters {
     border: 1px solid $color-border;
     padding-top: 20px;
@@ -53,6 +55,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
   &--owner,
   &--comment,
   &--additionally {
@@ -70,11 +73,14 @@
   padding: 15px;
   border: 1px solid $color-border;
   font-family: "Oswald", "Arial", sans-serif;
+
   @include text-parameter(16px, 1.13, $color-text, 400);
   outline: none;
+
   &:hover {
     border-color: $color-border-darker;
   }
+
   &:focus {
     border-color: $color-text;
     border-width: 2px;
@@ -88,6 +94,7 @@
   line-height: 30px;
   padding-left: 46px;
   text-transform: uppercase;
+
   &::before {
     content: "";
     display: inline-block;
@@ -97,9 +104,10 @@
     border-radius: 50%;
     margin-right: 16px;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
   }
+
   &::after {
     content: "";
     display: none;
@@ -111,12 +119,15 @@
     top: 10px;
     left: 10px;
   }
+
   &:hover::before {
     border-color: $color-border-darker;
   }
+
   &:active::after {
     background-color: rgba($color-main, 0.3);
   }
+
   &:active::before {
     border-color: rgba($color-border-darker, 0.3);
   }
@@ -133,6 +144,7 @@
   line-height: 30px;
   padding-left: 46px;
   text-transform: uppercase;
+
   &::before {
     content: "";
     display: inline-block;
@@ -141,9 +153,10 @@
     border: 1px solid $color-border;
     margin-right: 16px;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
   }
+
   &::after {
     content: "";
     display: none;
@@ -157,12 +170,15 @@
     top: 7px;
     left: 2px;
   }
+
   &:hover::before {
     border-color: $color-border-darker;
   }
+
   &:active::after {
     border-color: rgba($color-main, 0.3);
   }
+
   &:active::before {
     border-color: rgba($color-border-darker, 0.3);
   }
@@ -183,14 +199,19 @@
   resize: none;
   outline: none;
   font-family: "Oswald", "Arial", sans-serif;
+
   @include text-parameter(16px, 1.13, $color-text, 400);
+
   &::placeholder {
     font-family: "Oswald", "Arial", sans-serif;
+
     @include text-parameter(16px, 1.13, $color-text, 400);
   }
+
   &:hover {
     border-color: $color-border-darker;
   }
+
   &:focus {
     border-color: $color-text;
     border-width: 2px;
@@ -208,6 +229,7 @@
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 35px;
+
   @include text-parameter(14px, 1.14, $color-text, 400);
   text-align: center;
 }

@@ -11,6 +11,7 @@
 
 .about-product__item {
   list-style: none;
+
   &:not(:last-of-type) {
     margin-bottom: 20px;
   }
@@ -30,6 +31,7 @@
   padding-left: 80px;
   margin-top: 0;
   margin-bottom: 0;
+
   &::before {
     content: "";
     display: inline-block;
