@@ -1,9 +1,13 @@
 .product-card__list {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
   list-style: none;
   padding-left: 0;
 }
 
 .product-card__item {
+  flex-basis: 160px;
   border-top: 1px solid $color-border;
   padding-right: 20px;
   padding-left: 20px;
@@ -28,10 +32,14 @@
 .product-card__title {
   @include text-parameter(16px, 1.25, $color-subtitle, 400);
   text-transform: uppercase;
+  padding-left: 140px;
 }
 
 .product-card__description {
   @include text-parameter(12px, 1.33, $color-text, 400);
+  display: block;
+  border-collapse: collapse;
+  padding-left: 140px;
 
   &--big-card {
     margin-top: 20px;
@@ -46,6 +54,7 @@
 
 .product-card__characteristic {
   padding: 0;
+  width: 100%;
 }
 
 .product-card__button {
@@ -60,36 +69,40 @@
   .product-card {
     padding-left: 30px;
     padding-right: 30px;
+    margin-top: 16px;
+    margin-bottom: 70px;
   }
 
   .product-card__list {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-right: -30px;
+    margin-left: -30px;
   }
 
   .product-card__item {
+    flex-basis: 264px;
     text-align: center;
-    flex-basis: 320px;
-    flex-shrink: 0;
-    border: none;
     background-color: $color-secondary;
-    margin-top: 135px;
+    margin-top: 140px;
     padding: 40px;
-
-    &:last-of-type {
-      border-bottom: none;
-    }
+    margin-right: 30px;
+    margin-left: 30px;
+    border-top: none;
+    border: 1px solid transparent;
   }
 
   .product-card__description {
     @include text-parameter(16px, 1, $color-text, 400);
     width: 100%;
+    padding-left: 0;
   }
 
   .product-card__characteristic {
     padding-top: 10px;
     padding-bottom: 10px;
+    border-bottom: 1px solid $color-border;
 
     &:first-child {
       text-align: start;
@@ -102,6 +115,12 @@
 
   .product-card__title {
     @include text-parameter(20px, 1, $color-subtitle, 400);
+    padding-left: 0;
+  }
+
+  .product-card--view-more {
+    background-color: #ffffff;
+    border-color: $color-border;
   }
 }
 

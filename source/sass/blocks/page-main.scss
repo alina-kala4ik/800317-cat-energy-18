@@ -6,6 +6,12 @@
   margin-left: 20px;
 }
 
+@media (min-width: $tablet-width) {
+  .page-main__title {
+    @include text-parameter(60px, 1, $color-subtitle, 400);
+  }
+}
+
 .page-main__subtitle {
   @include text-parameter(24px, 1, $color-subtitle, 400);
   margin-top: 30px;
