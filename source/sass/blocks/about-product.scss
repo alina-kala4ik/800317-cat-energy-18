@@ -11,6 +11,7 @@
 
 .about-product__item {
   list-style: none;
+
   &:not(:last-of-type) {
     margin-bottom: 20px;
   }
@@ -30,6 +31,7 @@
   padding-left: 80px;
   margin-top: 0;
   margin-bottom: 0;
+
   &::before {
     content: "";
     display: inline-block;
@@ -53,6 +55,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .about-product__item {
     flex-basis: 202px;
     flex-shrink: 0;
@@ -60,10 +63,12 @@
     margin-top: 85px;
     padding-bottom: 50px;
   }
+
   .about-product__text {
     @include text-parameter(16px, 1.5, $color-text, 400);
     padding-left: 0;
     padding-top: 115px;
+
     &::before {
       width: 80px;
       height: 80px;
@@ -79,6 +84,7 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
   .about-product__item {
     flex-basis: 200px;
     padding-bottom: 40px;

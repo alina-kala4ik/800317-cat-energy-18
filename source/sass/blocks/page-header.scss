@@ -20,10 +20,12 @@
     padding-top: 25px;
     padding-bottom: 25px;
   }
+
   .page-header__wrapper {
     padding-right: 0;
     padding-left: 0;
   }
+
   .page-header__toggle {
     display: none;
   }
@@ -56,13 +58,13 @@
 .page-header__preview-title {
   @include text-parameter(36px, 1, $color-element, 400);
   margin-top: 0;
-  margin-bottom: 0;
-  text-align: center;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .page-header__preview-subtitle {
   text-transform: uppercase;
+
   @include text-parameter(14px, 1, $color-element, 400);
   margin-top: 0;
   margin-bottom: 0;
@@ -92,22 +94,27 @@
     background-repeat: no-repeat;
     padding-bottom: 520px;
   }
+
   .page-header__preview-wrapper {
     background: none;
     flex-basis: auto;
   }
+
   .page-header__preview-title {
     @include text-parameter(60px, 1, $color-subtitle, 400);
     text-align: start;
     margin-bottom: 30px;
   }
+
   .page-header__preview-subtitle {
     @include text-parameter(20px, 1, $color-subtitle, 400);
     text-align: start;
   }
+
   .page-header__preview-image {
     display: none;
   }
+
   .page-header__preview-link {
     @include text-parameter(20px, 1, $color-element, 400);
     margin-right: 0;
@@ -125,11 +132,13 @@
       url("../img/index-background-desktop@1x.jpg") right top no-repeat;
     padding-bottom: 220px;
   }
+
   .page-header__header {
     width: 1220px;
     margin-right: auto;
     margin-left: auto;
   }
+
   .page-header__preview {
     background: none;
     padding-bottom: 0;
@@ -137,6 +146,7 @@
     margin-right: auto;
     margin-left: auto;
   }
+
   .page-header__preview-link {
     margin-top: 50px;
   }

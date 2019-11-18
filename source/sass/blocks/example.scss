@@ -29,6 +29,7 @@
   padding-right: 0;
   padding-top: 15px;
   padding-bottom: 15px;
+
   @include text-parameter(24px, 1, $color-subtitle, 400);
   width: 124px;
   height: 56px;
@@ -59,5 +60,6 @@
 
 .example__verge {
   text-transform: uppercase;
+
   @include text-parameter(16px, 1.25, $color-subtitle, 400);
 }
