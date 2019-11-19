@@ -21,11 +21,11 @@
   padding-bottom: 20px;
   text-align: center;
 
-  &:hover {
+  &[href]:hover {
     color: rgba($color-subtitle, 0.6);
   }
 
-  &:active {
+  &[href]:active {
     color: rgba($color-subtitle, 0.3);
   }
 }
@@ -63,11 +63,11 @@
       border-bottom: 2px solid $color-element;
     }
 
-    &:hover {
+    &[href]:hover {
       color: rgba($color-element, 0.6);
     }
 
-    &:active {
+    &[href]:active {
       color: rgba($color-element, 0.3);
     }
   }
