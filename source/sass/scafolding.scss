@@ -49,6 +49,6 @@ img {
 
 @media (min-width: $desktop-width) {
   .container {
-    width: 1220px;
+    max-width: 1220px;
   }
 }

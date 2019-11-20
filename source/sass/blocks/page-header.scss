@@ -50,12 +50,10 @@
   margin-top: 0;
   margin-bottom: 20px;
   text-align: center;
-  background: cornflowerblue; //временное свойство
 }
 
 .page-header__preview-subtitle {
   text-transform: uppercase;
-  background: cornflowerblue; //временное свойство
 
   @include text-parameter(14px, 1, $color-element, 400);
   margin-top: 0;
@@ -78,11 +76,7 @@
 @media (min-width: $tablet-width) {
   .page-header__preview {
     align-items: flex-start;
-    background-image: url("../img/index-can-tablet@1x.jpg");
-    background-position: 70px 220px;
-    background-repeat: no-repeat;
     padding-left: 120px;
-    padding-bottom: 520px;
   }
 
   .page-header__preview-title {
@@ -94,10 +88,6 @@
   .page-header__preview-subtitle {
     @include text-parameter(20px, 1, $color-subtitle, 400);
     text-align: start;
-  }
-
-  .page-header__preview-image {
-    display: none;
   }
 
   .page-header__preview-link {
@@ -120,6 +110,7 @@
     background: none;
     padding-bottom: 0;
     padding-left: 160px;
+    box-sizing: border-box;
   }
 
   .page-header__preview-link {

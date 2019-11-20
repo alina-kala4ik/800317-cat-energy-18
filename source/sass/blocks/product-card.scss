@@ -80,8 +80,6 @@
 
 @media (min-width: $tablet-width) {
   .product-card {
-    padding-left: 30px;
-    padding-right: 30px;
     margin-top: 16px;
     margin-bottom: 70px;
   }
@@ -159,12 +157,6 @@
 }
 
 @media (min-width: $desktop-width) {
-  .product-card {
-    width: 1220px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .product-card__item {
     flex-basis: 165px;
     margin-top: 145px;
