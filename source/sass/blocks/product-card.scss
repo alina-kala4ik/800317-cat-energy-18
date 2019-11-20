@@ -1,3 +1,8 @@
+.product-card {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .product-card__list {
   display: flex;
   flex-direction: column;
@@ -33,7 +38,7 @@
 
 .product-card__image {
   position: absolute;
-  top: 0;
+  top: 5px;
 }
 
 .product-card__title {
@@ -82,6 +87,8 @@
   .product-card {
     margin-top: 16px;
     margin-bottom: 70px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 
   .product-card__list {
