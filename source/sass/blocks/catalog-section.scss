@@ -1,4 +1,4 @@
-.catalog-section{
+.catalog-section {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -33,5 +33,6 @@
 
 .catalog-section__link {
   text-transform: uppercase;
+
   @include text-parameter(16px, 1, $color-subtitle, 400);
 }
