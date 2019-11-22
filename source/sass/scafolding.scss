@@ -3,6 +3,9 @@ body {
   font-family: "Oswald", "Arial", sans-serif;
 
   @include text-parameter(14px, 1.29, $color-text, 400);
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
 }
 
 .visually-hidden:not(:focus):not(:active) {
@@ -20,4 +23,29 @@ body {
 
 a {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: $tablet-width) {
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .container {
+    max-width: 1220px;
+  }
 }
