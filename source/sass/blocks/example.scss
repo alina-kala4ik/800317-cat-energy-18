@@ -172,8 +172,7 @@
 }
 
 .example__range {
-  /* stylelint-disable-next-line */
-  -webkit-appearance: none;
+  appearance: none;
   margin: 14px 0;
 }
 
@@ -236,8 +235,7 @@
     border-radius: 50%;
     background: url("../img/circle.svg") center center no-repeat, #ffffff;
     cursor: pointer;
-    /* stylelint-disable-next-line */
-    -webkit-appearance: none;
+    appearance: none;
     margin-top: -14px;
     position: relative;
   }
@@ -268,8 +266,7 @@
     border-radius: 50%;
     background: url("circle.svg") center center no-repeat, #ffffff;
     cursor: pointer;
-    /* stylelint-disable-next-line */
-    -webkit-appearance: none;
+    appearance: none;
     margin-top: -14px;
     position: relative;
   }
@@ -300,8 +297,7 @@
     border-radius: 50%;
     background: url("circle.svg") center center no-repeat, #ffffff;
     cursor: pointer;
-    /* stylelint-disable-next-line */
-    -webkit-appearance: none;
+    appearance: none;
     margin-top: -14px;
     position: relative;
   }
