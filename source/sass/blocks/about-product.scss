@@ -4,14 +4,6 @@
   margin-bottom: 0;
 }
 
-.about-product__item {
-  list-style: none;
-
-  &:not(:last-of-type) {
-    margin-bottom: 20px;
-  }
-}
-
 .about-product__title {
   @include text-parameter(36px, 1.67, $color-subtitle, 400);
   margin-top: 18px;
@@ -20,6 +12,7 @@
 
 .about-product__text {
   font-family: $secondary-font;
+
   @include text-parameter(14px, 1.29, $color-text, 400);
   position: relative;
   display: inline-block;
@@ -41,6 +34,12 @@
 }
 
 .about-product__item {
+  list-style: none;
+
+  &:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+
   &--healthy .about-product__text::before {
     background-position: -5px -76px;
   }
@@ -62,6 +61,7 @@
   .about-product {
     border-bottom: 1px solid $color-border;
   }
+
   .about-product__title {
     @include text-parameter(60px, 1, $color-subtitle, 400);
     margin-bottom: 0;
@@ -113,20 +113,7 @@
     &--results::before {
       content: "4";
     }
-  }
 
-  .about-product__text {
-    @include text-parameter(16px, 1.5, $color-text, 400);
-    padding-left: 0;
-    padding-top: 112px;
-
-    &::before {
-      width: 80px;
-      height: 80px;
-    }
-  }
-
-  .about-product__item {
     &--healthy .about-product__text::before {
       background-position: 6px -63px;
     }
@@ -141,6 +128,17 @@
 
     &--results .about-product__text::before {
       background-position: 6px 5px;
+    }
+  }
+
+  .about-product__text {
+    @include text-parameter(16px, 1.5, $color-text, 400);
+    padding-left: 0;
+    padding-top: 112px;
+
+    &::before {
+      width: 80px;
+      height: 80px;
     }
   }
 }

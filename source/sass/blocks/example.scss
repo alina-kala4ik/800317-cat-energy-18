@@ -84,6 +84,7 @@
 @media (min-width: $tablet-width) {
   .example {
     background-color: #ffffff;
+    padding-bottom: 0;
   }
 
   .example__title {
@@ -176,7 +177,7 @@
   .example .container {
     padding-right: 0;
     padding-left: 0;
-    padding-bottom: 15px;
+    padding-bottom: 0;
   }
 
   .example__title,

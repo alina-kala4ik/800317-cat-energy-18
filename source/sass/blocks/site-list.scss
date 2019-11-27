@@ -74,3 +74,9 @@
     }
   }
 }
+
+@media (min-width: $desktop-width) {
+  .site-list__link {
+    @include text-parameter(20px, 1.25, $color-subtitle, 400);
+  }
+}
