@@ -63,3 +63,41 @@
   padding-right: 0;
   margin-bottom: 40px;
 }
+
+.page-main--index {
+  margin-top: 20px;
+}
+
+@media (min-width: $desktop-width) {
+  .page-main--index {
+    margin-top: 80px;
+  }
+}
+
+.page-main__example {
+  margin-top: 41px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-main__example {
+    margin-top: 27px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-main__example {
+    margin-top: 170px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-main__about-product {
+    margin-top: 48px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-main__about-product {
+    margin-top: 77px;
+  }
+}

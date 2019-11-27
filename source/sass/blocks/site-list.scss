@@ -39,7 +39,8 @@
 
   .site-list__item {
     border: none;
-    margin-left: 30px;
+    margin-left: 35px;
+    margin-top: 10px;
 
     &:last-of-type {
       border-bottom: none;
@@ -48,8 +49,7 @@
 
   .site-list__link {
     @include text-parameter(18px, 1.39, $color-subtitle-lighter, 400);
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-bottom: 6px;
 
     &--active {
       border-bottom: 2px solid $color-main;
