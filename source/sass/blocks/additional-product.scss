@@ -70,21 +70,36 @@
 
 @media (min-width: $desktop-width) {
   .additional-product__item {
+    justify-content: flex-end;
     align-items: center;
     border-left: none;
     border-right: none;
     padding: 15px 0;
   }
 
+  .additional-product__characteristic:first-child {
+    text-align: left;
+    width: 150px;
+  }
+
+  .additional-product__characteristic:last-child {
+    width: 130px;
+  }
+
   .additional-product__title {
-    min-width: 160px;
+    width: 160px;
+  }
+
+  .additional-product__description {
+    margin-left: 160px;
   }
 
   .additional-product__button {
     width: auto;
-    padding-right: 90px;
-    padding-left: 90px;
+    padding-right: 95px;
+    padding-left: 95px;
     margin-top: 0;
+    margin-left: 45px;
   }
 }
 
