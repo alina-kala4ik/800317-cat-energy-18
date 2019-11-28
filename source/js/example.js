@@ -19,7 +19,7 @@ document.getElementById("expample_range").addEventListener("change", function() 
     fat_left.classList.remove("jshidden");
     slim_right.classList.remove("jshidden");
 
-    example_toggle.style.width = "calc(50% - 12px)";
+    example_toggle.style.width = "calc(50% - 6px)";
   }
   if(this.value == 3){
     slim_right.classList.remove("jshidden");
