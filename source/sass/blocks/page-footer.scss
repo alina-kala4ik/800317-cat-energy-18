@@ -10,7 +10,8 @@
 }
 
 .page-footer__map {
-  width: calc(100% - 4px);
+  width: 100vw;
+  max-width: 100%;
   border: none;
   height: 362px;
   margin-bottom: -3px;

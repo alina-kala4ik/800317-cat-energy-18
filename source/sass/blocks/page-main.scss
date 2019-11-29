@@ -50,7 +50,8 @@
 @media (min-width: $desktop-width) {
   .page-main__subtitle {
     top: -53px;
-    padding-left: 19px;
+    padding-left: 39px;
+    padding-right: 42px;
   }
 }
 
@@ -66,7 +67,7 @@
 
 @media (min-width: $desktop-width) {
   .page-main__subtitle {
-    left: -20px;
+    left: -40px;
   }
 }
 
@@ -152,5 +153,54 @@
 @media (min-width: $desktop-width) {
   .product-card {
     margin-top: 46px;
+  }
+}
+
+.page-main--form {
+  & .page-main__text {
+    margin-top: -3px;
+    padding-right: 30px;
+    margin-bottom: 24px;
+  }
+
+  & .page-main__text {
+    @include text-parameter(14px, 1.29, $color-subtitle, 400);
+    text-transform: uppercase;
+  }
+
+  & .page-main__subtitle {
+    top: -18px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-main--form {
+    & .page-main__title {
+      margin-top: 28px;
+      margin-bottom: 56px;
+    }
+
+    & .page-main__text {
+      @include text-parameter(20px, 1.5, $color-subtitle, 400);
+      margin-top: 0;
+      padding-left: 40px;
+      max-width: 325px;
+    }
+
+    & .page-main__subtitle {
+      top: -25px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-main--form {
+    & .page-main__title {
+      margin-top: 45px;
+    }
+
+    & .page-main__text {
+      padding-left: 0;
+    }
   }
 }
