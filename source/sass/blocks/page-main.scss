@@ -161,9 +161,7 @@
     margin-top: -3px;
     padding-right: 30px;
     margin-bottom: 24px;
-  }
 
-  & .page-main__text {
     @include text-parameter(14px, 1.29, $color-subtitle, 400);
     text-transform: uppercase;
   }
