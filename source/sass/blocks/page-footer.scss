@@ -54,6 +54,11 @@
 .page-footer__logo {
   padding-top: 39px;
   padding-bottom: 28px;
+
+  & svg {
+    width: 128px;
+    height: 24px;
+  }
 }
 
 .page-footer__logo[href]:hover {
