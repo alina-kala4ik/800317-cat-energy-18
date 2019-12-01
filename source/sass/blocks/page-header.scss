@@ -59,7 +59,7 @@
   background: url("../img/index-background-mobile@1x.jpg") top center no-repeat, linear-gradient(to bottom, #65a93c 63.5%, #ffffff 37.5%);
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-    background-image: url("../img/index-background-mobile@2x.jpg"),linear-gradient(to bottom, #65a93c 63.5%, #ffffff 37.5%);
+    background-image: url("../img/index-background-mobile@2x.jpg"), linear-gradient(to bottom, #65a93c 63.5%, #ffffff 37.5%);
     background-size: 320px auto;
   }
 }
