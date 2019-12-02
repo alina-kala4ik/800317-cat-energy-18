@@ -59,15 +59,16 @@
     width: 128px;
     height: 24px;
   }
+
+  &[href]:hover {
+    opacity: 0.8;
+  }
+
+  &[href]:active {
+    opacity: 0.6;
+  }
 }
 
-.page-footer__logo[href]:hover {
-  opacity: 0.8;
-}
-
-.page-footer__logo[href]:active {
-  opacity: 0.6;
-}
 
 .page-footer__social-list {
   border-top: 1px solid $color-border;
