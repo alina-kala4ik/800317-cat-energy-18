@@ -7,14 +7,13 @@
   min-height: 114px;
   justify-content: space-between;
   align-items: center;
+  z-index: 9;
 }
 
 .page-footer__map {
   width: 100vw;
   max-width: 100%;
-  border: none;
   height: 362px;
-  margin-bottom: -3px;
 }
 
 .page-footer__header--main-title {
