@@ -355,6 +355,10 @@
   margin-top: -1px;
 }
 
+.example__tablet-image {
+  display: none;
+}
+
 //переключатель на планшет, десктоп
 @media (min-width: $tablet-width) {
   .example__range {
@@ -363,8 +367,13 @@
     margin: 14px 14px;
   }
 
-  .example__mobile-range {
+  .example__mobile-range,
+  .example__mobile-image {
     display: none;
+  }
+
+  .example__tablet-image {
+    display: block;
   }
 
   //chrome
