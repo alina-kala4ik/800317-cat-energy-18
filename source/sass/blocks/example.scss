@@ -1,7 +1,7 @@
 .example {
   background-color: $color-secondary;
   padding-top: 17px;
-  padding-bottom: 35px;
+  padding-bottom: 26px;
 }
 
 .example__title {
@@ -141,7 +141,7 @@
 
 .example__live-image-wrapper {
   display: flex;
-  margin-bottom: 63px;
+  margin-bottom: 20px;
   overflow: hidden;
 }
 
@@ -357,6 +357,10 @@
 
 .example__tablet-image {
   display: none;
+}
+
+.example__mobile-image img {
+  height: 240px;
 }
 
 //переключатель на планшет, десктоп
