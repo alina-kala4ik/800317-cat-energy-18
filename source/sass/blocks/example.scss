@@ -163,8 +163,7 @@
   border-color: transparent;
 }
 
-.example__range:focus,
-.example__mobile-range:focus {
+.example__range:focus {
   outline: none;
 }
 
@@ -283,16 +282,18 @@
 
 //мобильная версия переключателя
 .example__range {
-  display: none;
+  appearance: none;
+  margin: 14px 14px;
 }
 
-.example__mobile-range {
+.example__range {
   appearance: none;
   margin: 14px 19px;
   width: 84px;
+  background: transparent;
 }
 
-.example__mobile-range::-webkit-slider-runnable-track {
+.example__range::-webkit-slider-runnable-track {
   height: 14px;
   width: 84px;
   cursor: pointer;
@@ -302,7 +303,7 @@
   padding: 4px 6px;
 }
 
-.example__mobile-range::-webkit-slider-thumb {
+.example__range::-webkit-slider-thumb {
   border: none;
   height: 6px;
   width: 35px;
@@ -313,7 +314,7 @@
   margin-top: -1px;
 }
 
-.example__mobile-range::-moz-range-track {
+.example__range::-moz-range-track {
   height: 14px;
   width: 84px;
   cursor: pointer;
@@ -359,25 +360,10 @@
   display: none;
 }
 
-.example__mobile-image img {
-  height: 240px;
-}
-
 //переключатель на планшет, десктоп
 @media (min-width: $tablet-width) {
   .example__range {
-    display: block;
-    appearance: none;
-    margin: 14px 14px;
-  }
-
-  .example__mobile-range,
-  .example__mobile-image {
-    display: none;
-  }
-
-  .example__tablet-image {
-    display: block;
+    width: 428px;
   }
 
   //chrome
@@ -387,6 +373,7 @@
     background: $color-element-darker;
     border-radius: 2.5px;
     border: none;
+    padding: 0;
   }
 
   .example__range::-webkit-slider-thumb {
@@ -418,6 +405,7 @@
     background: $color-element-darker;
     border-radius: 2.5px;
     border: none;
+    padding: 0;
   }
 
   .example__range::-moz-range-thumb {
@@ -449,6 +437,7 @@
     background: $color-element-darker;
     border-radius: 2.5px;
     border: none;
+    padding: 0;
   }
 
   .example__range::-ms-thumb {
