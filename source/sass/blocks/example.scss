@@ -195,7 +195,7 @@
   .example__live-image-wrapper {
     height: 517px;
     margin-top: -168px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .example__live-image-wrapper img {
@@ -367,6 +367,7 @@
   border-radius: 6px;
   border: 1px solid $color-border;
 }
+
 .example__range::-ms-fill-upper {
   background: #ffffff;
   border-radius: 6px;
@@ -470,7 +471,7 @@
     cursor: pointer;
     appearance: none;
     position: relative;
-    margin-top: 15px;
+    margin-top: 5px;
   }
 
   .example__range::-ms-fill-lower {
@@ -478,6 +479,7 @@
     border-radius: 2.5px;
     border: none;
   }
+
   .example__range::-ms-fill-upper {
     background: $color-element-darker;
     border-radius: 2.5px;
