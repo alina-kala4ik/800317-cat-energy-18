@@ -366,7 +366,6 @@
 @media (min-width: $tablet-width) {
   .example__range {
     width: 428px;
-    height: auto;
   }
 
   //chrome
@@ -435,7 +434,8 @@
   }
 
   //IE
-  .example__wrapper {
+  .example__wrapper,
+  .example__range {
     height: 34px;
   }
 
@@ -460,7 +460,6 @@
     appearance: none;
     margin-top: -14px;
     position: relative;
-    z-index: 9;
   }
 
   .example__range::-ms-fill-lower {
