@@ -370,6 +370,7 @@
 @media (min-width: $tablet-width) {
   .example__range {
     width: 428px;
+    height: auto;
   }
 
   //chrome
@@ -440,6 +441,7 @@
   //IE
   .example__range::-ms-track {
     height: 6px;
+    width: 100%;
     cursor: pointer;
     background: $color-element-darker;
     border-radius: 2.5px;
