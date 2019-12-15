@@ -75,9 +75,6 @@ gulp.task("html", function () {
   .pipe(htmlmin({
     collapseWhitespace: true
   }))
-  // .pipe(rename(function (path) {
-  //   path.basename += ".min";
-  // }))
   .pipe(gulp.dest("build"))
 })
 
