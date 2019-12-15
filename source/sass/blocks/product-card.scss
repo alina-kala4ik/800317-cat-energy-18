@@ -23,6 +23,7 @@
 
 .product-card__item {
   flex-basis: 160px;
+  min-height: 160px;
   flex-grow: 1;
   flex-shrink: 0;
   border-top: 1px solid $color-border;

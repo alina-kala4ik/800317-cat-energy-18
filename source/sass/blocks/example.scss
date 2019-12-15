@@ -145,6 +145,10 @@
   overflow: hidden;
 }
 
+.example__live-image-wrapper img {
+  height: 240px;
+}
+
 .jshidden {
   display: none;
 }
@@ -191,6 +195,10 @@
     height: 517px;
     margin-top: -168px;
     margin-bottom: 13px;
+  }
+
+  .example__live-image-wrapper img {
+    height: 517px;
   }
 
   .example__range {
