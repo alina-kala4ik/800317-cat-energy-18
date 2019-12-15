@@ -84,7 +84,7 @@
       color: $color-subtitle-lighter;
     }
 
-    & .form-feedback__text-input:hover + svg {
+    & .form-feedback__text-input:focus + svg {
       color: $color-main;
     }
   }

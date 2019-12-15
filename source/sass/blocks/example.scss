@@ -153,13 +153,14 @@
   @include text-parameter(16px, 1.25, $color-subtitle, 400);
   border-bottom: 1px dotted $color-border;
   text-transform: uppercase;
+  padding-bottom: 5px;
 }
 
 .example__wrapper:hover span {
   border-bottom-style: solid;
 }
 
-.example__wrapper:focus span {
+.example__wrapper:active span {
   border-color: transparent;
 }
 
@@ -281,11 +282,6 @@
 }
 
 //мобильная версия переключателя
-.example__range {
-  appearance: none;
-  margin: 14px 14px;
-}
-
 .example__range {
   appearance: none;
   margin: 14px 19px;
