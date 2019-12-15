@@ -362,6 +362,17 @@
   margin-top: -1px;
 }
 
+.example__range::-ms-fill-lower {
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid $color-border;
+}
+.example__range::-ms-fill-upper {
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid $color-border;
+}
+
 //переключатель на планшет, десктоп
 @media (min-width: $tablet-width) {
   .example__range {
@@ -436,7 +447,7 @@
   //IE
   .example__wrapper,
   .example__range {
-    height: 34px;
+    height: 50px;
   }
 
   .example__range::-ms-track {
