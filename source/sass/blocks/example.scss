@@ -362,10 +362,6 @@
   margin-top: -1px;
 }
 
-.example__tablet-image {
-  display: none;
-}
-
 //переключатель на планшет, десктоп
 @media (min-width: $tablet-width) {
   .example__range {
@@ -464,6 +460,7 @@
     appearance: none;
     margin-top: -14px;
     position: relative;
+    z-index: 9;
   }
 
   .example__range::-ms-fill-lower {
