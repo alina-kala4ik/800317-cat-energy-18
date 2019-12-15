@@ -147,6 +147,7 @@
 
 .example__live-image-wrapper img {
   height: 240px;
+  width: auto;
 }
 
 .jshidden {
@@ -292,8 +293,9 @@
 //мобильная версия переключателя
 .example__range {
   appearance: none;
-  margin: 14px 19px;
+  margin: 0 19px;
   width: 84px;
+  height: 14px;
   background: transparent;
 }
 
@@ -405,6 +407,7 @@
   //Мозила
   .example__range::-moz-range-track {
     height: 6px;
+    width: 100%;
     cursor: pointer;
     background: $color-element-darker;
     border-radius: 2.5px;
@@ -418,7 +421,7 @@
     height: 34px;
     width: 34px;
     border-radius: 50%;
-    background: url("circle.svg") center center no-repeat, #ffffff;
+    background: url("%3Csvg height='8' width='8' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='4' cy='4' r='4' fill='%2368b738'/%3E%3C/svg%3E") center center no-repeat, #ffffff;
     cursor: pointer;
     appearance: none;
     margin-top: -14px;
