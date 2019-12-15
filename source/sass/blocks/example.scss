@@ -439,6 +439,10 @@
   }
 
   //IE
+  .example__wrapper {
+    height: 34px;
+  }
+
   .example__range::-ms-track {
     height: 6px;
     width: 100%;
@@ -460,6 +464,17 @@
     appearance: none;
     margin-top: -14px;
     position: relative;
+  }
+
+  .example__range::-ms-fill-lower {
+    background: $color-element-darker;
+    border-radius: 2.5px;
+    border: none;
+  }
+  .example__range::-ms-fill-upper {
+    background: $color-element-darker;
+    border-radius: 2.5px;
+    border: none;
   }
 
   .example__range:hover::-ms-thumb {
