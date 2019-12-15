@@ -189,7 +189,7 @@
   .example__demonstration {
     background: linear-gradient(to right, $color-secondary 50%, #eaeaea 50%);
     margin-top: 254px;
-    padding-bottom: 52px;
+    padding-bottom: 39px;
   }
 
   .example__live-image-wrapper {
@@ -469,7 +469,6 @@
     background: url("data:image/svg+xml,%3Csvg height='8' width='8' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='4' cy='4' r='4' fill='%2368b738'%3E%3C/circle%3E%3C/svg%3E%0A") center center no-repeat, #ffffff;
     cursor: pointer;
     appearance: none;
-    margin-top: -20px;
     position: relative;
   }
 
