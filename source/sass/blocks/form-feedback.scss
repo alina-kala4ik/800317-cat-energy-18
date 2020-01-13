@@ -376,6 +376,16 @@
   display: inline-block;
 }
 
+.form-feedback input:disabled + .form-feedback__radio-button::before,
+.form-feedback input:disabled + .form-feedback__radio-button::after {
+  opacity: 0.3;
+}
+
+.form-feedback input:disabled + .form-feedback__radio-button:hover::before{
+  border-color: $color-border;
+  cursor: default;
+}
+
 @media (min-width: $tablet-width) {
   .form-feedback__radio-button {
     @include text-parameter(20px, 1, $color-subtitle-lighter, 400);
@@ -445,6 +455,15 @@
 
 .form-feedback input:checked + .form-feedback__checkbox-button::after {
   display: inline-block;
+}
+
+.form-feedback input:disabled + .form-feedback__checkbox-button::after,
+.form-feedback input:disabled + .form-feedback__checkbox-button::before  {
+  opacity: 0.3;
+}
+
+.form-feedback input:disabled + .form-feedback__checkbox-button:hover::before {
+  cursor: default;
 }
 
 @media (min-width: $tablet-width) {
