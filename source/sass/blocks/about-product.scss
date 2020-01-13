@@ -44,22 +44,22 @@
   &:not(:last-of-type) {
     margin-bottom: 20px;
   }
+}
 
-  &--healthy .about-product__text::before {
-    background-position: -5px -76px;
-  }
+.about-product__item--healthy .about-product__text::before {
+  background-position: -5px -76px;
+}
 
-  &--powder .about-product__text::before {
-    background-position: -75px -77px;
-  }
+.about-product__item--powder .about-product__text::before {
+  background-position: -75px -77px;
+}
 
-  &--eating .about-product__text::before {
-    background-position: -76px -6px;
-  }
+.about-product__item--eating .about-product__text::before {
+  background-position: -76px -6px;
+}
 
-  &--results .about-product__text::before {
-    background-position: -5px -6px;
-  }
+.about-product__item--results .about-product__text::before {
+  background-position: -5px -6px;
 }
 
 @media (min-width: $tablet-width) {
@@ -118,22 +118,22 @@
     &--results::before {
       content: "4";
     }
+  }
 
-    &--healthy .about-product__text::before {
-      background-position: 6px -63px;
-    }
+  .about-product__item--healthy .about-product__text::before {
+    background-position: 6px -63px;
+  }
 
-    &--powder .about-product__text::before {
-      background-position: -64px -63px;
-    }
+  .about-product__item--powder .about-product__text::before {
+    background-position: -64px -63px;
+  }
 
-    &--eating .about-product__text::before {
-      background-position: -65px 4px;
-    }
+  .about-product__item--eating .about-product__text::before {
+    background-position: -65px 4px;
+  }
 
-    &--results .about-product__text::before {
-      background-position: 6px 5px;
-    }
+  .about-product__item--results .about-product__text::before {
+    background-position: 6px 5px;
   }
 
   .about-product__text {
