@@ -77,13 +77,14 @@
     padding: 15px 0;
   }
 
-  .additional-product__characteristic:first-child {
-    text-align: left;
-    width: 150px;
-  }
-
-  .additional-product__characteristic:last-child {
-    width: 130px;
+  .additional-product__characteristic {
+    &:first-child {
+      text-align: left;
+      width: 150px;
+    }
+    &:last-child {
+      width: 130px;
+    }
   }
 
   .additional-product__title {
