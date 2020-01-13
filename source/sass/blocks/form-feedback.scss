@@ -384,6 +384,14 @@
   cursor: default;
 }
 
+.form-feedback__radio-button:focus {
+  outline: none;
+
+  &::before {
+    border-color: $color-text;
+  }
+}
+
 @media (min-width: $tablet-width) {
   .form-feedback__radio-button {
     @include text-parameter(20px, 1, $color-subtitle-lighter, 400);
@@ -464,6 +472,14 @@
   cursor: default;
 }
 
+.form-feedback__checkbox-button:focus {
+  outline: none;
+
+  &::before {
+    border-color: $color-text;
+  }
+}
+
 @media (min-width: $tablet-width) {
   .form-feedback__checkbox-button {
     @include text-parameter(20px, 1, $color-subtitle-lighter, 400);
@@ -491,7 +507,6 @@
     }
   }
 }
-
 
 .form-feedback__comment-container {
   display: flex;
