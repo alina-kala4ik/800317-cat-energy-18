@@ -124,7 +124,7 @@
   margin-top: 20px;
 
   @include text-parameter(14px, 1.14, $color-text, 400);
-  font-family: $secondary-font;
+  font-family: $secondary-font, $third-font, sans-serif;
   align-self: center;
 }
 
@@ -304,7 +304,7 @@
   padding-left: 15px;
   border: 1px solid $color-border;
   text-transform: uppercase;
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $main-font, $secondary-font, sans-serif;
 
   @include text-parameter(16px, 1.13, $color-text, 400);
   outline: none;
@@ -490,14 +490,14 @@
   padding-left: 12px;
   resize: none;
   outline: none;
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $main-font, $secondary-font, sans-serif;
   min-height: 123px;
   border-color: $color-border;
 
   @include text-parameter(16px, 1.13, $color-text, 400);
 
   &::placeholder {
-    font-family: "Oswald", "Arial", sans-serif;
+    font-family: $main-font, $secondary-font, sans-serif;
     text-transform: uppercase;
 
     @include text-parameter(16px, 1.13, $color-text, 400);

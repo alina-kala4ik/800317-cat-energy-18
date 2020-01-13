@@ -31,7 +31,7 @@
 
 .additional-product__characteristic {
   @include text-parameter(16px, 1.25, $color-text, 400);
-  font-family: $secondary-font;
+  font-family: $secondary-font, $third-font, sans-serif;
   width: 100%;
 }
 
@@ -125,7 +125,7 @@
 
 .additional-product__action_title {
   @include text-parameter(16px, 1.25, $color-element, 400);
-  font-family: $secondary-font;
+  font-family: $secondary-font, $third-font, sans-serif;
   margin-bottom: 0;
   padding-top: 43px;
   text-align: center;

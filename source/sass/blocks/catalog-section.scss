@@ -52,7 +52,7 @@
 }
 
 .catalog-section__description {
-  font-family: $secondary-font;
+  font-family: $secondary-font, $third-font, sans-serif;
 
   @include text-parameter(14px, 1.29, $color-text, 400);
   border-bottom: 1px solid $color-border;

@@ -43,7 +43,7 @@
 }
 
 .page-footer__address {
-  font-family: $secondary-font;
+  font-family: $secondary-font, $secondary-font, sans-serif;
 
   @include text-parameter(14px, 1.43, $color-text, 400);
   margin-top: 0;
@@ -98,7 +98,7 @@
   color: $color-text;
 
   & span {
-    font-family: $secondary-font;
+    font-family: $secondary-font, $secondary-font, sans-serif;
 
     @include text-parameter(16px, 1, $color-text, 400);
   }
