@@ -527,7 +527,7 @@
 
   &:focus {
     border-color: $color-text;
-    border-width: 2px;
+    box-shadow: 1px 1px 0 0 $color-text, -1px -1px 0 0 $color-text;
   }
 }
 
