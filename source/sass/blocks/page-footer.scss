@@ -4,10 +4,12 @@
 
 .page-footer__contact-desc {
   display: flex;
-  min-height: 114px;
+  min-height: 57px;
   justify-content: space-between;
   align-items: center;
   z-index: 9;
+  padding-top: 29px;
+  padding-bottom: 26px;
 }
 
 .page-footer__map {
@@ -133,15 +135,17 @@
   }
 
   .page-footer__contact-desc {
-    padding-top: 45px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-bottom: 40px;
+    padding-top: 64px;
+    padding-left: 42px;
+    min-height: 70px;
+    padding-right: 42px;
+    margin-bottom: 34px;
   }
 
   .page-footer__title,
   .page-footer__address {
     max-width: 155px;
+    flex-basis: 155px;
   }
 
   .page-footer__title {
@@ -193,10 +197,10 @@
     position: absolute;
     background: #ffffff;
     top: 95px;
-    padding-top: 45px;
+    padding-top: 64px;
     padding-left: 78px;
     padding-right: 90px;
-    padding-bottom: 40px;
+    padding-bottom: 58px;
   }
 
   .page-footer__title {

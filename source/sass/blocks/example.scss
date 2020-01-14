@@ -66,6 +66,7 @@
   background-color: $color-secondary;
   padding-left: 15px;
   padding-right: 15px;
+  left: 17px;
 }
 
 .example__fact-total-item {
@@ -117,7 +118,7 @@
 
   .example__fact-total-item {
     @include text-parameter(20px, 1, $color-subtitle, 400);
-    max-width: 174px;
+    max-width: 180px;
     text-align: right;
     padding-top: 0;
     padding-bottom: 0;
@@ -126,10 +127,19 @@
   .example__fact-comment {
     @include text-parameter(14px, 1, $color-text, 400);
     background-color: #ffffff;
-    width: auto;
     bottom: -6px;
     padding-left: 9px;
     padding-right: 9px;
+
+    &--first {
+      left: 22px;
+      width: auto;
+    }
+
+    &--last {
+      width: 130px;
+      left: 6px;
+    }
   }
 }
 
@@ -189,7 +199,7 @@
   .example__demonstration {
     background: linear-gradient(to right, $color-secondary 50%, #eaeaea 50%);
     margin-top: 254px;
-    padding-bottom: 39px;
+    padding-bottom: 51px;
   }
 
   .example__live-image-wrapper {

@@ -90,6 +90,14 @@
   right: 15px;
 }
 
+.form-feedback__text-input--email+svg {
+  top: 15px;
+}
+
+.form-feedback__text-input--phone+svg {
+  top: 12px;
+}
+
 .form-feedback__group-parameters--owner .form-feedback__text-input + svg {
   color: $color-subtitle-lighter;
 }
@@ -175,6 +183,14 @@
     right: 17px;
   }
 
+  .form-feedback__text-input--email+svg {
+    top: 20px;
+  }
+
+  .form-feedback__text-input--phone+svg {
+    top: 17px;
+  }
+
   .form-feedback__group-parameters--additionally .form-feedback__list {
     margin-top: 43px;
     display: flex;
@@ -258,6 +274,14 @@
 
   .form-feedback__group-parameters--owner svg {
     right: 20px;
+  }
+
+  .form-feedback__text-input--email+svg {
+    top: 19px;
+  }
+
+  .form-feedback__text-input--phone+svg {
+    top: 19px;
   }
 
   .form-feedback__group-parameters--additionally .form-feedback__item {
@@ -524,7 +548,8 @@
   outline: none;
   font-family: $main-font, $secondary-font, sans-serif;
   min-height: 123px;
-  border-color: $color-border;
+  border: 1px solid $color-border;
+  text-transform: uppercase;
 
   @include text-parameter(16px, 1.13, $color-text, 400);
 
