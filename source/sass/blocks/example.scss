@@ -353,7 +353,7 @@
 
 .example__range::-ms-track {
   height: 14px;
-  width: 84px;
+  width: 70px;
   cursor: pointer;
   background: #ffffff;
   border-radius: 6px;
@@ -372,16 +372,16 @@
   margin-top: -1px;
 }
 
-.example__range::-ms-fill-lower {
-  background: #ffffff;
-  border-radius: 6px;
-  border: 1px solid $color-border;
-}
-
+.example__range::-ms-fill-lower,
 .example__range::-ms-fill-upper {
   background: #ffffff;
+  height: 12px;
   border-radius: 6px;
-  border: 1px solid $color-border;
+}
+
+
+.example__range::-ms-track {
+  color: transparent;
 }
 
 //переключатель на планшет, десктоп
