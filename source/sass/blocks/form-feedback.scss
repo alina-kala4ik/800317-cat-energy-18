@@ -21,6 +21,7 @@
   list-style: none;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   &:not(:last-of-type) {
     margin-bottom: 15px;
@@ -65,7 +66,7 @@
   }
 
   &--comment {
-    margin-top: 43px;
+    margin-top: 41px;
   }
 
   &--additionally {
@@ -78,7 +79,7 @@
 }
 
 .form-feedback__group-parameters--owner .page-main__subtitle {
-  max-width: 225px;
+  max-width: 182px;
 }
 
 .form-feedback__group-parameters--owner .form-feedback__item {
@@ -87,15 +88,20 @@
 
 .form-feedback__group-parameters--owner svg {
   position: absolute;
-  right: 15px;
+}
+
+.form-feedback__group-parameters--owner .form-feedback__text-label {
+  margin-right: 15px;
 }
 
 .form-feedback__text-input--email+svg {
   top: 15px;
+  right: 15px;
 }
 
 .form-feedback__text-input--phone+svg {
   top: 12px;
+  right: 11px;
 }
 
 .form-feedback__group-parameters--owner .form-feedback__text-input + svg {
@@ -310,7 +316,18 @@
 .form-feedback__text-label {
   @include text-parameter(16px, 1.13, $color-subtitle-lighter, 400);
   text-transform: uppercase;
-  margin-right: 15px;
+
+  &--name {
+    margin-right: 16px;
+  }
+
+  &--weight {
+    margin-right: 19px;
+  }
+
+  &--age {
+    margin-right: 11px;
+  }
 }
 
 @media (min-width: $tablet-width) {

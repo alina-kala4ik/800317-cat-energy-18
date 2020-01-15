@@ -10,9 +10,8 @@
 
 .social__item {
   list-style: none;
-  margin-right: 17px;
-  margin-left: 17px;
   color: #666666;
+  width: 30px;
 
   &:hover {
     cursor: pointer;
@@ -21,6 +20,14 @@
 
   &:active {
     color: rgba($color-main, 0.3);
+  }
+
+  &--vkontakte {
+    margin-right: 29px;
+  }
+
+  &--facebook {
+    margin-left: 26px;
   }
 }
 
@@ -40,9 +47,21 @@
 }
 
 @media (min-width: $tablet-width) {
+  .social {
+    padding-left: 27px;
+  }
+
   .social__item {
-    margin-right: 15px;
-    margin-left: 15px;
+    width: 35px;
+    margin: 0;
+
+    &--vkontakte {
+      margin-right: 25px;
+    }
+
+    &--instagram {
+      margin-right: 12px;
+    }
   }
 
   .social__item--instagram svg {
