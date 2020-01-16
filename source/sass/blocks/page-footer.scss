@@ -157,6 +157,7 @@
     @include text-parameter(16px, 1.25, $color-text, 400);
     text-align: right;
   }
+
   .page-footer__address span {
     display: block;
     margin-top: 19px;
@@ -180,6 +181,7 @@
     padding-top: 0;
     padding-bottom: 0;
   }
+
   .page-footer__copyright span {
     margin-right: 15px;
   }

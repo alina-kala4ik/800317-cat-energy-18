@@ -21,7 +21,6 @@
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 
   &:not(:last-of-type) {
     margin-bottom: 15px;
@@ -94,12 +93,12 @@
   margin-right: 15px;
 }
 
-.form-feedback__text-input--email+svg {
+.form-feedback__text-input--email + svg {
   top: 15px;
   right: 15px;
 }
 
-.form-feedback__text-input--phone+svg {
+.form-feedback__text-input--phone + svg {
   top: 12px;
   right: 11px;
 }
@@ -189,11 +188,11 @@
     right: 17px;
   }
 
-  .form-feedback__text-input--email+svg {
+  .form-feedback__text-input--email + svg {
     top: 20px;
   }
 
-  .form-feedback__text-input--phone+svg {
+  .form-feedback__text-input--phone + svg {
     top: 17px;
   }
 
@@ -282,11 +281,11 @@
     right: 20px;
   }
 
-  .form-feedback__text-input--email+svg {
+  .form-feedback__text-input--email + svg {
     top: 19px;
   }
 
-  .form-feedback__text-input--phone+svg {
+  .form-feedback__text-input--phone + svg {
     top: 19px;
   }
 
@@ -420,7 +419,7 @@
   opacity: 0.3;
 }
 
-.form-feedback input:disabled + .form-feedback__radio-button:hover::before{
+.form-feedback input:disabled + .form-feedback__radio-button:hover::before {
   border-color: $color-border;
   cursor: default;
 }
@@ -505,7 +504,7 @@
 }
 
 .form-feedback input:disabled + .form-feedback__checkbox-button::after,
-.form-feedback input:disabled + .form-feedback__checkbox-button::before  {
+.form-feedback input:disabled + .form-feedback__checkbox-button::before {
   opacity: 0.3;
 }
 
